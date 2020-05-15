@@ -25,7 +25,7 @@ get '/goodbye/:name' do
   "Goodbye #{@user_name}."
 end 
 
-get "/multiply/:num1/:num2" do 
+get '/multiply/:num1/:num2' do 
   @number1 = params[:num1]
   @number2 = params[:num2]
   "@number1 x @number2"
